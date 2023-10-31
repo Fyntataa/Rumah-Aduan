@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         admin = findViewById(R.id.Admin)
         admin.setOnClickListener {
             // Kode untuk perpindahan ke halaman atau aktivitas login
-            val intent = Intent(this, AdminLogin::class.java) // Ganti 'LoginActivity' dengan nama kelas aktivitas login Anda
+            val intent = Intent(this, AdminLog::class.java)
             startActivity(intent)
         }
 

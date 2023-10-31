@@ -60,7 +60,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="64dp"
                 android:inputType="textPersonName"
-                android:contentDescription="@string/masukkan_nama_lengkap_anda_di_sini" />
+                android:hint="nama lengkap"
+                />
             <View
                 android:layout_width="match_parent"
                 android:layout_height="20dp"/>
@@ -75,7 +76,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="64dp"
                 android:inputType="text"
-                android:contentDescription="@string/masukkan_kelas_anda_di_sini"
+                android:hint="kelas"
                 />
             <View
                 android:layout_width="match_parent"
@@ -91,7 +92,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="64dp"
                 android:inputType="number"
-                android:contentDescription="@string/masukkan_nisn_anda_di_sini"
+                android:hint="NISN"
                 />
 
         </LinearLayout>
